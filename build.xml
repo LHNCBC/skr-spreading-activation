@@ -1,0 +1,38 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="classes"/>
+        <!-- <copy todir="classes">
+	    <fileset dir="src">
+	       <include name="**/*.properties"/>
+	    </fileset>
+	    </copy> -->
+        <javac srcdir="src" destdir="classes"> 
+           <classpath>
+           <pathelement path="${classpath}"/>
+           <pathelement location="lib/mysql-connector-java-5.1.18-bin.jar"/>
+           <pathelement location="lib/jdom.jar"/>
+         </classpath>
+        </javac >
+    </target>
+
+    <target name="jar">
+        <mkdir dir="lib"/>
+        <!-- <copy todir="classes">
+	    <fileset dir="src">
+	       <include name="**/*.properties"/>
+	    </fileset>
+	</copy> -->
+        <jar destfile="lib/sa.jar" basedir="classes">
+            <manifest>
+                <attribute name="Main-Class" value="gov.nih.nlm.skr.SA.SpreadingActivation"/>
+            </manifest>
+            <include name="**/*.class"/>
+        </jar>
+    </target>
+
+</project>

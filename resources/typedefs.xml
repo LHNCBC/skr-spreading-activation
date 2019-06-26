@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TypeDefs>
+<SemanticGroups>
+	<SemanticGroup name="Activities &amp; Behaviors" abbreviation="ACTI">
+		<SemanticType name="Activity" abbreviation="acty"/>
+		<SemanticType name="Behavior" abbreviation="bhvr"/>
+		<SemanticType name="Daily or Recreational Activity" abbreviation="dora"/>
+		<SemanticType name="Event" abbreviation="evnt"/>
+		<SemanticType name="Governmental or Regulatory Activity" abbreviation="gora"/>
+		<SemanticType name="Individual Behavior" abbreviation="inbe"/>
+		<SemanticType name="Machine Activity" abbreviation="mcha"/>
+		<SemanticType name="Occupational Activity" abbreviation="ocac"/>
+		<SemanticType name="Social Behavior" abbreviation="socb"/>
+	</SemanticGroup>
+	<SemanticGroup name="Anatomy" abbreviation="ANAT">
+		<SemanticType name="Anatomical Structure" abbreviation="anst"/>
+		<SemanticType name="Body Location or Region" abbreviation="blor"/>
+		<SemanticType name="Body Part, Organ, or Organ Component" abbreviation="bpoc"/>
+		<SemanticType name="Body Space or Junction" abbreviation="bsoj"/>
+		<SemanticType name="Body Substance" abbreviation="bdsu"/>
+		<SemanticType name="Body System" abbreviation="bdsy"/>
+		<SemanticType name="Cell" abbreviation="cell"/>
+		<SemanticType name="Cell Component" abbreviation="celc"/>
+		<SemanticType name="Embryonic Structure" abbreviation="emst"/>
+		<SemanticType name="Fully Formed Anatomical Structure" abbreviation="ffas"/>
+		<SemanticType name="Tissue" abbreviation="tisu"/>
+	</SemanticGroup>
+	<SemanticGroup name="Chemicals &amp; Drugs" abbreviation="CHEM">
+		<SemanticType name="Amino Acid, Peptide, or Protein" abbreviation="aapp"/>
+		<SemanticType name="Antibiotic" abbreviation="antb"/>
+		<SemanticType name="Biologically Active Substance" abbreviation="bacs"/>
+		<SemanticType name="Biomedical or Dental Material" abbreviation="bodm"/>
+		<SemanticType name="Carbohydrate" abbreviation="carb"/>
+		<SemanticType name="Chemical" abbreviation="chem"/>
+		<SemanticType name="Chemical Viewed Functionally" abbreviation="chvf"/>
+		<SemanticType name="Chemical Viewed Structurally" abbreviation="chvs"/>
+		<SemanticType name="Clinical Drug" abbreviation="clnd"/>
+		<SemanticType name="Eicosanoid" abbreviation="eico"/>
+		<SemanticType name="Element, Ion, or Isotope" abbreviation="elii"/>
+		<SemanticType name="Enzyme" abbreviation="enzy"/>
+		<SemanticType name="Hazardous or Poisonous Substance" abbreviation="hops"/>
+		<SemanticType name="Hormone" abbreviation="horm"/>
+		<SemanticType name="Immunologic Factor" abbreviation="imft"/>
+		<SemanticType name="Indicator, Reagent, or Diagnostic Aid" abbreviation="irda"/>
+		<SemanticType name="Inorganic Chemical" abbreviation="inch"/>
+		<SemanticType name="Lipid" abbreviation="lipd"/>
+		<SemanticType name="Neuroreactive Substance or Biogenic Amine" abbreviation="nsba"/>
+		<SemanticType name="Nucleic Acid, Nucleoside, or Nucleotide" abbreviation="nnon"/>
+		<SemanticType name="Organic Chemical" abbreviation="orch"/>
+		<SemanticType name="Organophosphorus Compound" abbreviation="opco"/>
+		<SemanticType name="Pharmacologic Substance" abbreviation="phsu"/>
+		<SemanticType name="Receptor" abbreviation="rcpt"/>
+		<SemanticType name="Steroid" abbreviation="strd"/>
+		<SemanticType name="Vitamin" abbreviation="vita"/>
+	</SemanticGroup>
+	<SemanticGroup name="Concepts &amp; Ideas" abbreviation="CONC">
+		<SemanticType name="Classification" abbreviation="clas"/>
+		<SemanticType name="Conceptual Entity" abbreviation="cnce"/>
+		<SemanticType name="Functional Concept" abbreviation="ftcn"/>
+		<SemanticType name="Group Attribute" abbreviation="grpa"/>
+		<SemanticType name="Idea or Concept" abbreviation="idcn"/>
+		<SemanticType name="Intellectual Product" abbreviation="inpr"/>
+		<SemanticType name="Language" abbreviation="lang"/>
+		<SemanticType name="Qualitative Concept" abbreviation="qlco"/>
+		<SemanticType name="Quantitative Concept" abbreviation="qnco"/>
+		<SemanticType name="Regulation or Law" abbreviation="rnlw"/>
+		<SemanticType name="Spatial Concept" abbreviation="spco"/>
+		<SemanticType name="Temporal Concept" abbreviation="tmco"/>
+	</SemanticGroup>
+	<SemanticGroup name="Devices" abbreviation="DEVI">
+		<SemanticType name="Drug Delivery Device" abbreviation="drdd"/>
+		<SemanticType name="Medical Device" abbreviation="medd"/>
+		<SemanticType name="Research Device" abbreviation="resd"/>
+	</SemanticGroup>
+	<SemanticGroup name="Disorders" abbreviation="DISO">
+		<SemanticType name="Acquired Abnormality" abbreviation="acab"/>
+		<SemanticType name="Anatomical Abnormality" abbreviation="anab"/>
+		<SemanticType name="Cell or Molecular Dysfunction" abbreviation="comd"/>
+		<SemanticType name="Congenital Abnormality" abbreviation="cgab"/>
+		<SemanticType name="Disease or Syndrome" abbreviation="dsyn"/>
+		<SemanticType name="Experimental Model of Disease" abbreviation="emod"/>
+		<SemanticType name="Finding" abbreviation="fndg"/>
+		<SemanticType name="Injury or Poisoning" abbreviation="inpo"/>
+		<SemanticType name="Mental or Behavioral Dysfunction" abbreviation="mobd"/>
+		<SemanticType name="Neoplastic Process" abbreviation="neop"/>
+		<SemanticType name="Pathologic Function" abbreviation="patf"/>
+		<SemanticType name="Sign or Symptom" abbreviation="sosy"/>
+	</SemanticGroup>
+	<SemanticGroup name="Genes &amp; Molecular Sequences" abbreviation="GENE">
+		<SemanticType name="Amino Acid Sequence" abbreviation="amas"/>
+		<SemanticType name="Carbohydrate Sequence" abbreviation="crbs"/>
+		<SemanticType name="Gene or Genome" abbreviation="gngm"/>
+		<SemanticType name="Molecular Sequence" abbreviation="mosq"/>
+		<SemanticType name="Nucleotide Sequence" abbreviation="nusq"/>
+	</SemanticGroup>
+	<SemanticGroup name="Geographic Areas" abbreviation="GEOG">
+		<SemanticType name="Geographic Area" abbreviation="geoa"/>
+	</SemanticGroup>
+	<SemanticGroup name="Living Beings" abbreviation="LIVB">
+		<SemanticType name="Age Group" abbreviation="aggp"/>
+		<SemanticType name="Alga" abbreviation="alga"/>
+		<SemanticType name="Amphibian" abbreviation="amph"/>
+		<SemanticType name="Animal" abbreviation="anim"/>
+		<SemanticType name="Archaeon" abbreviation="arch"/>
+		<SemanticType name="Bacterium" abbreviation="bact"/>
+		<SemanticType name="Bird" abbreviation="bird"/>
+		<SemanticType name="Family Group" abbreviation="famg"/>
+		<SemanticType name="Fish" abbreviation="fish"/>
+		<SemanticType name="Fungus" abbreviation="fngs"/>
+		<SemanticType name="Group" abbreviation="grup"/>
+		<SemanticType name="Human" abbreviation="humn"/>
+		<SemanticType name="Invertebrate" abbreviation="invt"/>
+		<SemanticType name="Mammal" abbreviation="mamm"/>
+		<SemanticType name="Organism" abbreviation="orgm"/>
+		<SemanticType name="Patient or Disabled Group" abbreviation="podg"/>
+		<SemanticType name="Plant" abbreviation="plnt"/>
+		<SemanticType name="Population Group" abbreviation="popg"/>
+		<SemanticType name="Professional or Occupational Group" abbreviation="prog"/>
+		<SemanticType name="Reptile" abbreviation="rept"/>
+		<SemanticType name="Rickettsia or Chlamydia" abbreviation="rich"/>
+		<SemanticType name="Vertebrate" abbreviation="vtbt"/>
+		<SemanticType name="Virus" abbreviation="virs"/>
+	</SemanticGroup>
+	<SemanticGroup name="Objects" abbreviation="OBJC">
+		<SemanticType name="Entity" abbreviation="enty"/>
+		<SemanticType name="Food" abbreviation="food"/>
+		<SemanticType name="Manufactured Object" abbreviation="mnob"/>
+		<SemanticType name="Physical Object" abbreviation="phob"/>
+		<SemanticType name="Substance" abbreviation="sbst"/>
+	</SemanticGroup>
+	<SemanticGroup name="Occupations" abbreviation="OCCU">
+		<SemanticType name="Biomedical Occupation or Discipline" abbreviation="bmod"/>
+		<SemanticType name="Occupation or Discipline" abbreviation="ocdi"/>
+	</SemanticGroup>
+	<SemanticGroup name="Organizations" abbreviation="ORGA">
+		<SemanticType name="Health Care Related Organization" abbreviation="hcro"/>
+		<SemanticType name="Organization" abbreviation="orgt"/>
+		<SemanticType name="Professional Society" abbreviation="pros"/>
+		<SemanticType name="Self-help or Relief Organization" abbreviation="shro"/>
+	</SemanticGroup>
+	<SemanticGroup name="Phenomena" abbreviation="PHEN">
+		<SemanticType name="Biologic Function" abbreviation="biof"/>
+		<SemanticType name="Environmental Effect of Humans" abbreviation="eehu"/>
+		<SemanticType name="Human-caused Phenomenon or Process" abbreviation="hcpp"/>
+		<SemanticType name="Laboratory or Test Result" abbreviation="lbtr"/>
+		<SemanticType name="Natural Phenomenon or Process" abbreviation="npop"/>
+		<SemanticType name="Phenomenon or Process" abbreviation="phpr"/>
+	</SemanticGroup>
+	<SemanticGroup name="Physiology" abbreviation="PHYS">
+		<SemanticType name="Cell Function" abbreviation="celf"/>
+		<SemanticType name="Clinical Attribute" abbreviation="clna"/>
+		<SemanticType name="Genetic Function" abbreviation="genf"/>
+		<SemanticType name="Mental Process" abbreviation="menp"/>
+		<SemanticType name="Molecular Function" abbreviation="moft"/>
+		<SemanticType name="Organ or Tissue Function" abbreviation="ortf"/>
+		<SemanticType name="Organism Attribute" abbreviation="orga"/>
+		<SemanticType name="Organism Function" abbreviation="orgf"/>
+		<SemanticType name="Physiologic Function" abbreviation="phsf"/>
+	</SemanticGroup>
+	<SemanticGroup name="Procedures" abbreviation="PROC">
+		<SemanticType name="Diagnostic Procedure" abbreviation="diap"/>
+		<SemanticType name="Educational Activity" abbreviation="adac"/>
+		<SemanticType name="Health Care Activity" abbreviation="hlca"/>
+		<SemanticType name="Laboratory Procedure" abbreviation="lbpr"/>
+		<SemanticType name="Molecular Biology Research Technique" abbreviation="mbrt"/>
+		<SemanticType name="Research Activity" abbreviation="resa"/>
+		<SemanticType name="Therapeutic or Preventive Procedure" abbreviation="topp"/>
+	</SemanticGroup>
+</SemanticGroups>
+</TypeDefs>
