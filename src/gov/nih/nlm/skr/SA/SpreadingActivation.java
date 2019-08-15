@@ -1,3 +1,15 @@
+/**
+ * Main class for Spreading Activation
+ * 
+ * @author Dongwook Shin
+ *
+ * - The algorithm accepts four arguments from the command line.
+   - The first argument of the algorithm indicates if the second and third arguments are provided as as UMLS preferred names or UMLS concept identifiers (CUIs). If it is given as "NAME", it means that the following two arguments are taken as preferred names. If it is "CUI", it means the following two are taken as CUIs. 
+   - The second and third arguments are two seed nodes with which the spreading activation algorithm starts.
+   - The fourth argument is the name of the output file where the daughter graph is generated in XML format. If the fourth argument is missing, the daughter graph is generated as standard output.
+   - The Spreading Activation algorithm generates the mother graph first, which displays each concept in a separate line.
+ */
+
 package gov.nih.nlm.skr.SA;
 
 import java.util.ArrayList;
@@ -34,13 +46,6 @@ public class SpreadingActivation {
 	
 	static public void main(String[] argv) { 
 
-		/* String dbConnectionString = null; 
-		String dbName = null;
-		String dbUserName = null;
-		String dbPassword = null;
-		String ranking = null;
-		String semtypeProp = null;
-		String semgroupProp = null; */
 		int distance = 0;
 		int motherNodes = 0;
 		int daughterNodes = 0;
