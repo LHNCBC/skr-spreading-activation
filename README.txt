@@ -1,5 +1,5 @@
 README of Spreading Activation program
-
+Dongwook Shin, National Library of Medicine
     
 (1) Download SemMed database
     a. Visit SemMed database Web page at https://skr3.nlm.nih.gov/SemMedDB/index.html and click download link
